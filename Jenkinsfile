@@ -3,7 +3,7 @@ pipeline{
     stages {
         stage('hotfix changes...') {
             steps {
-                sh 'echo "hotfix changes" '
+                sh 'echo "hotfix latest changes" '
             }
         }
         stage('test') {
